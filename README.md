@@ -10,6 +10,21 @@ and a behavior test in an isolated environment.
 
 ---
 
+## ⬇️ Download & install (Windows)
+
+**➡️ [Download the installer](https://github.com/zurualt/voids-secure-system/releases/latest/download/VoidsSecureSystem_Setup.exe)**
+
+1. Run **`VoidsSecureSystem_Setup.exe`**.
+2. If Windows shows *"Windows protected your PC"*, click **More info → Run anyway** (the app is unsigned).
+3. Click through the wizard — **no administrator rights needed**. A shortcut is added to the Start menu.
+4. It **updates itself automatically** when a new version is released.
+
+Prefer not to install? Grab the **[portable version](https://github.com/zurualt/voids-secure-system/releases/latest/download/VoidsSecureSystem.exe)** and just run it.
+
+All releases: <https://github.com/zurualt/voids-secure-system/releases/latest>
+
+---
+
 ## What it checks
 
 ### Core mode (safe — never runs the file)
@@ -74,12 +89,6 @@ python publish.py --version 2.3.0 --notes "what's new"
 ```
 Then upload `dist/VoidsSecureSystem.exe` as the release asset (exact name `VoidsSecureSystem.exe`)
 and push `update.json`.
-
-## Install (for friends)
-Share **`VoidsSecureSystem_Setup.exe`**. On launch Windows may show *"Windows protected your PC"*
-(because it is unsigned): **More info → Run anyway**. It installs per-user, without administrator
-rights, and adds a Start-menu shortcut. There is also a portable `VoidsSecureSystem.exe` that runs
-without installing.
 
 ---
 

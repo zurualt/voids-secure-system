@@ -14,6 +14,7 @@ def main():
         "--noconfirm", "--clean",
         "--name", "VoidsSecureSystem",
         "--onefile", "--windowed",
+        "--version-file", "version_info.txt",
         "--add-data", f"{monitor}{SEP}vss/dynamic",
         "--collect-all", "tkinterdnd2",
         "--collect-all", "yara",
